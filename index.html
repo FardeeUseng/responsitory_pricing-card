@@ -4,9 +4,49 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Responsive pricing card</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-   
+   <div class="card container grid">
+      <div class="card_container grid">
+         <article class="card_content grid">
+            <div class="card_pricing">
+               <div class="card_pricing-number">
+                  <span class="card_pricing-symbol">$</span>0
+               </div>
+               <span class="card_pricing-month">/month</span>
+            </div>
+            <header class="card_header">
+               <div class="card_pricing-circle">
+                  <img src="img/free-coin.png" alt="" class="card_pricing-img">
+               </div>
+               <span class="card_header-subtitle">free plan</span>
+               <h1 class="card_header-title">Basic</h1>
+            </header>
+
+            <ul class="card-list">
+               <li class="list-item">
+                  <i class="fas fa-check card_list-icon"></i>
+                  <p class="card_list-description">3 User request</p>
+               </li>
+               <li class="list-item">
+                  <i class="fas fa-check card_list-icon"></i>
+                  <p class="card_list-description">10 Downloads por day</p>
+               </li>
+               <li class="list-item">
+                  <i class="fas fa-check card_list-icon"></i>
+                  <p class="card_list-description">Daily content updates</p>
+               </li>
+               <li class="list-item">
+                  <i class="fas fa-check card_list-icon"></i>
+                  <p class="card_list-description">Fully editable files</p>
+               </li>
+            </ul>
+            <button class="card_button">Choose this plan</button>
+         </article>
+      </div>
+   </div>
 </body>
 </html>
